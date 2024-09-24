@@ -41,7 +41,7 @@ This file contains the structure we will style using CSS.
 - In the `<head>` section of `index.html`, link the CSS file:
 ```css 
 ```<link rel="stylesheet" href="layout.css">
-
+```
 - Write a CSS rule in `layout.css` to perform the following:
    - Set all the margins and padding for all HTML elements to be zero to ensure consistent rendering across different browsers.
    - Use the CSS selector that can apply the style to all elements.
@@ -58,7 +58,7 @@ This file contains the structure we will style using CSS.
     - Set font family to Arial for better readability.
 ```css 
 ``` font-family: Arial, Helvetica, sans-serif;
-
+```
 ---
 ### Step 4: Styling the Header, Nav, Article, Ads, and Footer
 - Add the following CSS rules to style the page sections:
@@ -73,7 +73,7 @@ This file contains the structure we will style using CSS.
     border: 1px solid gray;
     text-align: center;
 }
-
+```
 ---
 ### Step 5: Positioning the Layout Using Floats
 - Add the following CSS code to position the layout:
@@ -110,7 +110,7 @@ div{
     height: 200px;
     float:left;
 }
-
+```
 ---
 ### Step 6: Testing the Layout
 - Open the index.html file in a web browser.
