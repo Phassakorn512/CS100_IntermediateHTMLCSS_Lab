@@ -47,9 +47,9 @@ This file contains the structure we will style using CSS.
    - Use the CSS selector that can apply the style to all elements.
    - Set the `box-sizing` property so that padding and border are included in the width and height.
 ```css  
-        margin: 0px;
-        padding: 0px;
-        box-sizing: border-box;
+```         margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
 ```
 
 ---
@@ -82,7 +82,34 @@ This file contains the structure we will style using CSS.
     - Assign width percentages to each remaining section: 20% for nav and div, and 60% for article. Set a height of these elements to 200px for visualization purposes.
     - Ensures the footer appears below the nav, article, and div sections.
 ```css
-```
+```header{
+    width:100%
+}
+
+
+footer{
+    width:100%;
+    clear:both;
+}
+
+
+nav{
+    width:20%;
+    height: 200px;
+    float:left;
+}
+
+article{
+    width:60%;
+    height: 200px;
+    float:left;
+}
+
+div{
+    width:20%;
+    height: 200px;
+    float:left;
+}
 
 ---
 ### Step 6: Testing the Layout
