@@ -39,21 +39,23 @@ This file contains the structure we will style using CSS.
 ### Step 2: Setting Up the CSS File
 - In your code editor, create a new file and name it `layout.css`.
 - In the `<head>` section of `index.html`, link the CSS file:
-```css
+```css <link rel="stylesheet" href="layout.css">
 ```
 
 - Write a CSS rule in `layout.css` to perform the following:
    - Set all the margins and padding for all HTML elements to be zero to ensure consistent rendering across different browsers.
    - Use the CSS selector that can apply the style to all elements.
    - Set the `box-sizing` property so that padding and border are included in the width and height.
-```css
+```css  margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
 ```
 
 ---
 ### Step 3: Styling the Page Body
 - Add the following styles to your CSS file under the previous code:
     - Set font family to Arial for better readability.
-```css
+```css font-family: Arial, Helvetica, sans-serif;
 ```
 
 ---
