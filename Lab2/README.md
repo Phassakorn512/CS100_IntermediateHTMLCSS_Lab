@@ -116,7 +116,7 @@ nav {
 
 ![img/recipe_page1](img/recipe_page1.png)
 ![img/recipe_page2](img/recipe_page2.png)
-
+https://genericcomponents.netlify.app/generic-tabs/demo/
 
 ---
 
