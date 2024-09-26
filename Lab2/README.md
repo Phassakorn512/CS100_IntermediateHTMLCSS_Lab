@@ -76,7 +76,7 @@ nav {
 main {
     padding: 20px;
     float:right;
-    width:75%;
+    width:72%;
 }
 ```
 
@@ -84,6 +84,12 @@ main {
 ### Step 4: Styling the Footer
 - Since the `nav` and `main` sections are floated, ensure the footer stays below them by clearing the floats by adding relevant CSS styles to achieve this.
 ```css
+footer {
+    background-color: #ffe066;
+    padding: 10px;
+    text-align: center;
+    clear: both;
+}
 ```
 
 ---
